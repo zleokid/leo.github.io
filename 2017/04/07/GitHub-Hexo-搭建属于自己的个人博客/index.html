@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="code,hexo,github," />
 
 
 
@@ -87,15 +87,25 @@
 
 
 
-<meta name="description" content="吃吃喝喝学学唱唱玩玩哭哭闹闹笑笑">
-<meta property="og:type" content="website">
-<meta property="og:title" content="LEO">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="唠个五块钱的使用 Hexo 之前我一直在用 WordPress，但是文章多了插件多了之后，最近实在是不堪忍受它的臃肿，所以就在物色着想要换个博客生成工具。其实看中 Hexo 也挺久了，很中意它的轻量化和能免费部署到 GitHub 上，所以也一直想搭建一个基于 Hexo 的个人博客，但是因为我懒加上平时事情又多，所以就一直拖着。昨晚无聊看了下 Hexo 的官方文档之后，想着既然看都看了，何不动手试试">
+<meta name="keywords" content="code,hexo,github">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHub + Hexo 搭建属于自己的个人博客">
+<meta property="og:url" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/index.html">
 <meta property="og:site_name" content="LEO">
-<meta property="og:description" content="吃吃喝喝学学唱唱玩玩哭哭闹闹笑笑">
+<meta property="og:description" content="唠个五块钱的使用 Hexo 之前我一直在用 WordPress，但是文章多了插件多了之后，最近实在是不堪忍受它的臃肿，所以就在物色着想要换个博客生成工具。其实看中 Hexo 也挺久了，很中意它的轻量化和能免费部署到 GitHub 上，所以也一直想搭建一个基于 Hexo 的个人博客，但是因为我懒加上平时事情又多，所以就一直拖着。昨晚无聊看了下 Hexo 的官方文档之后，想着既然看都看了，何不动手试试">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/repository.png">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/create-a-new-repository.png">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/github-pages.png">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/ssh-hey.png">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/config.png">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/git.png">
+<meta property="og:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/hexo-git.png">
+<meta property="og:updated_time" content="2017-04-07T14:34:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LEO">
-<meta name="twitter:description" content="吃吃喝喝学学唱唱玩玩哭哭闹闹笑笑">
+<meta name="twitter:title" content="GitHub + Hexo 搭建属于自己的个人博客">
+<meta name="twitter:description" content="唠个五块钱的使用 Hexo 之前我一直在用 WordPress，但是文章多了插件多了之后，最近实在是不堪忍受它的臃肿，所以就在物色着想要换个博客生成工具。其实看中 Hexo 也挺久了，很中意它的轻量化和能免费部署到 GitHub 上，所以也一直想搭建一个基于 Hexo 的个人博客，但是因为我懒加上平时事情又多，所以就一直拖着。昨晚无聊看了下 Hexo 的官方文档之后，想着既然看都看了，何不动手试试">
+<meta name="twitter:image" content="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/repository.png">
 
 
 
@@ -123,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/"/>
 
 
 
 
 
-  <title> LEO </title>
+  <title> GitHub + Hexo 搭建属于自己的个人博客 | LEO </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -154,9 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -239,9 +247,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -271,10 +279,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/04/07/GitHub-Hexo-搭建属于自己的个人博客/" itemprop="url">
-                  GitHub + Hexo 搭建属于自己的个人博客
-                </a>
+                GitHub + Hexo 搭建属于自己的个人博客
               
             
           </h1>
@@ -325,9 +330,7 @@
       
 
       
-        
-          
-            <h1 id="唠个五块钱的"><a href="#唠个五块钱的" class="headerlink" title="唠个五块钱的"></a>唠个五块钱的</h1><p>使用 Hexo 之前我一直在用 WordPress，但是文章多了插件多了之后，最近实在是不堪忍受它的臃肿，所以就在物色着想要换个博客生成工具。<br>其实看中 Hexo 也挺久了，很中意它的轻量化和能免费部署到 GitHub 上，所以也一直想搭建一个基于 Hexo 的个人博客，但是因为我懒加上平时事情又多，所以就一直拖着。<br>昨晚无聊看了下 Hexo 的官方文档之后，想着既然看都看了，何不动手试试看！<br>然后虽然过程有点小曲折，但也没用多久就搭建起来了～<br>想着干脆记录下免得以后忘了细节再次踩坑，也顺便给想要用 GitHub + Hexo 搭建属于自己的个人博客的小伙伴们一个参考～</p>
+        <h1 id="唠个五块钱的"><a href="#唠个五块钱的" class="headerlink" title="唠个五块钱的"></a>唠个五块钱的</h1><p>使用 Hexo 之前我一直在用 WordPress，但是文章多了插件多了之后，最近实在是不堪忍受它的臃肿，所以就在物色着想要换个博客生成工具。<br>其实看中 Hexo 也挺久了，很中意它的轻量化和能免费部署到 GitHub 上，所以也一直想搭建一个基于 Hexo 的个人博客，但是因为我懒加上平时事情又多，所以就一直拖着。<br>昨晚无聊看了下 Hexo 的官方文档之后，想着既然看都看了，何不动手试试看！<br>然后虽然过程有点小曲折，但也没用多久就搭建起来了～<br>想着干脆记录下免得以后忘了细节再次踩坑，也顺便给想要用 GitHub + Hexo 搭建属于自己的个人博客的小伙伴们一个参考～</p>
 <p>PS: 因为我使用的是Mac，所以操作内容都是以 MacOS 为参考，其实 Mac 与 Windows 搭建 GitHub 博客相差不大，用 Windows 的小伙伴可以跳过安装 Node 和 Git 的部分，Google 下这两个在 Windows 下的安装方法。</p>
 <h1 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h1><ul>
 <li><h2 id="首先，我们得要有个-GitHub-的账号"><a href="#首先，我们得要有个-GitHub-的账号" class="headerlink" title="首先，我们得要有个 GitHub 的账号"></a>首先，我们得要有个 GitHub 的账号</h2><p>注册账号部分没什么好说的，直接进入 GitHub 官网注册。<br>这个是注册地址：<a href="https://github.com/join" target="_blank" rel="external">GitHub</a></p>
@@ -359,283 +362,76 @@
 <p>出现 done 表明部署完成！<br>此时整个 Hexo 博客就成功的部署在了 Github 上～<br>浏览器输入 <a href="https://yourname.github.io" target="_blank" rel="external">https://yourname.github.io</a> 就可以看到自己部署的博客了！～</p>
 <p>自定义域名，发布删除文章，配置主题的内容将在以后的更新中添加。</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/07/Hello-Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="LEO">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LEO">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/07/Hello-Hexo/" itemprop="url">
-                  Hello Hexo
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-07T18:42:19+08:00">
-                2017-04-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/code/" rel="tag"># code</a>
           
-            
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
           
-
+            <a href="/tags/github/" rel="tag"># github</a>
           
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
         
-          
-            <h1 id="Hello-Hexo"><a href="#Hello-Hexo" class="headerlink" title="Hello Hexo!"></a>Hello Hexo!</h1><p>自从知道了 Hexo 之后，心里就痒痒的一直想把博客用 Hexo 搭建并迁移到 Github 上，但是因为一直太忙没用时间就一直拖着。<br>昨晚无聊看了下 Hexo 的官方文档之后，想着既然看都看了，何不动手试试看！<br>然后就有了这个全新的基于 Hexo 搭建的博客。。<br>希望它能继续肩负起记录我生活点点滴滴的光荣使命！～</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/07/Hello-Word/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="LEO">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LEO">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-              
-                
-                <a class="post-title-link" href="/2017/04/07/Hello-Word/" itemprop="url">
-                  Hello Word
-                </a>
-              
+              <a href="/2017/04/07/Hello-Hexo/" rel="prev" title="Hello Hexo">
+                Hello Hexo <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-07T18:38:37+08:00">
-                2017-04-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="Hello-Word"><a href="#Hello-Word" class="headerlink" title="Hello Word!"></a>Hello Word!</h1>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -643,6 +439,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -662,8 +462,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
@@ -716,6 +525,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#唠个五块钱的"><span class="nav-number">1.</span> <span class="nav-text">唠个五块钱的</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#GitHub"><span class="nav-number">2.</span> <span class="nav-text">GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#首先，我们得要有个-GitHub-的账号"><span class="nav-number">2.1.</span> <span class="nav-text">首先，我们得要有个 GitHub 的账号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建-GitHub-仓库"><span class="nav-number">2.2.</span> <span class="nav-text">创建 GitHub 仓库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#安装-Node-js"><span class="nav-number">3.</span> <span class="nav-text">安装 Node.js</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#配置-Git-个人信息"><span class="nav-number">4.</span> <span class="nav-text">配置 Git 个人信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello-Hexo"><span class="nav-number">5.</span> <span class="nav-text">Hello Hexo!</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装-Hexo"><span class="nav-number">5.1.</span> <span class="nav-text">安装 Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在-Hexo-配置文件中关联-GitHub-账号"><span class="nav-number">5.2.</span> <span class="nav-text">在 Hexo 配置文件中关联 GitHub 账号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署-Hexo-到-GitHub"><span class="nav-number">5.3.</span> <span class="nav-text">部署 Hexo 到 GitHub</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -823,6 +648,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
